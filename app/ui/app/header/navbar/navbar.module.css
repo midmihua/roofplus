@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  gap: 25px;
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  color: var(--primaryYellow);
+}

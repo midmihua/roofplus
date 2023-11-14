@@ -1,0 +1,28 @@
+.container {
+  height: 240px;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background-color: var(--primaryDark);
+  color: var(--primaryLight);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.logo {
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

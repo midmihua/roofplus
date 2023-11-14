@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  /* background-color: teal; */
+}
+
+.title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.text {
+  font-weight: 500;
+  color: var(--primaryLight2);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 4px;
+}

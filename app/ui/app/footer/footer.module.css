@@ -1,0 +1,25 @@
+.container {
+  height: 120px;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background-color: var(--primaryDark);
+  color: var(--primaryLight);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}
+
+.logo:hover {
+  cursor: default;
+}

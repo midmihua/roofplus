@@ -1,0 +1,31 @@
+:root {
+  --max-width: 1360px;
+  --border-radius: 10px;
+  --border-radius2: 5px;
+
+  --primaryLight: #eeebdd;
+  --primaryLight2: #dbd8c8;
+  --primaryGrey: #a7b3bb;
+  --primaryDark: #212b30;
+  --primaryRed: #8f1d14;
+  --primaryYellow: #f89d13;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  color: var(--primaryDark);
+  background-color: var(--primaryDark);
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

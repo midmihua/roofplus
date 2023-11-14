@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  color: var(--primaryYellow);
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.text {
+  font-size: 14px;
+}

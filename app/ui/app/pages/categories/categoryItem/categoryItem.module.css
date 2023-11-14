@@ -1,0 +1,15 @@
+.container {
+  /* background-color: bisque; */
+  border-bottom: 1px solid var(--primaryGrey);
+  padding: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link:hover {
+  color: var(--primaryRed);
+}
